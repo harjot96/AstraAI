@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D082C1285C24B6D9354776 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01DD37B28D3041EB7523B30 /* Models.swift */; };
+		092C903FFE7648895BE66D38 /* Astrologers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA832C40C0F3B80F283A75 /* Astrologers.swift */; };
+		21AB3C405822CC6D6CB3869D /* YouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A7D3D9361F74AE803D414A /* YouView.swift */; };
+		2CD2067F8303B2C54F15CD44 /* ProStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E72318B3355FD01EADE954 /* ProStore.swift */; };
+		2FC97A2E399FB8F816F1A41A /* ProfileForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB54F0EC182C31F4348107 /* ProfileForm.swift */; };
+		3017D68668C1B0E25B521EED /* ChartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5CB24D865B988739E7D0C /* ChartScreen.swift */; };
+		30E08F0D31E6B5C08637602B /* AIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D88085D6610C4FC9A1B45 /* AIClient.swift */; };
+		3F7F37C8432C2A4F0C36E649 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21693BCC2A074951EFF3D727 /* OnboardingView.swift */; };
+		49C8E8B33E1216E993760C23 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A58361AE9821764A30B39AA /* SplashView.swift */; };
+		4D34B5F2E1DD1E0D4032FF5D /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = E31EA7E858A8088D7CCD9685 /* RevenueCat */; };
+		4D47C48A048B5759965329A5 /* PlanetDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94713ADE613103D88072D72 /* PlanetDetailSheet.swift */; };
+		4DE9A8DBBBDABDF34F28A558 /* ReadingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC1C50037D260805A4AA7D2 /* ReadingText.swift */; };
+		5C73DF995E0177CAC862A641 /* PlaceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C893B68CBA29FCA5D0D18 /* PlaceSearch.swift */; };
+		6EE968F51127E696E28B4E09 /* AstraAI.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 586F248EE2F4B0258864283D /* AstraAI.storekit */; };
+		71B600E859F37F36FF6E6AA7 /* ShareCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E08E7A19470101700F7370 /* ShareCard.swift */; };
+		78544D82B6521F0260C4F353 /* AstraAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA28535C4E67AF0BF71707 /* AstraAIApp.swift */; };
+		920D24454678DF82E22054FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD76D9CD69C27C0C6AC43009 /* Theme.swift */; };
+		96C13248CF248085D1CF20C6 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3DB1E0FEB86BF4BAEFE93 /* ChatView.swift */; };
+		9889A87F6DC0A8C96C1DC27A /* AstrologerPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3AE1C4524B9D722A84BA0 /* AstrologerPrompts.swift */; };
+		9A151F4EB73122F630784C5F /* TarotCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661466B50D42BF6CCDDCA018 /* TarotCardView.swift */; };
+		9A2CA137C6C98A2D7C32832D /* SignHoroscopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D4AE99D33FE84DEAB5ED91 /* SignHoroscopeView.swift */; };
+		A8751707DDAB356C71F2D109 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB2A5F587A0D4C3D758302 /* TodayView.swift */; };
+		AEE101855EEEC98026975048 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D71C6A49EAB45421CDBE2 /* PaywallView.swift */; };
+		C3C35C8774FE0A6F0CDC6E7F /* HoroscopeFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E0937910949E6DFA82DE34 /* HoroscopeFeed.swift */; };
+		C53F61E27DAD70E92CED5B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6EC1497E25CDE9433B2E7 /* Assets.xcassets */; };
+		C8EE840B44A2B4526DCF2F44 /* AstroCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1E8370E046C9AA4235E33474 /* AstroCore */; };
+		D0B1EEDBBCE0780A323DDAE5 /* ChartWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58630AAD99B48D115F4743 /* ChartWheel.swift */; };
+		DE4AEDDC0A6B90278F8780F8 /* DailyNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869742B824306DACFF32CD3C /* DailyNotifier.swift */; };
+		DF46695634896BAB6CBBE11A /* ReadingLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35175D5002A2386D99A4122E /* ReadingLoader.swift */; };
+		DF534887CC77525F5FD858C7 /* AskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E688656D0D3D2613095DB5 /* AskView.swift */; };
+		E0D067C3E352A7BFBFBC4547 /* ClaudeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0551A60614047CBFFB41A3 /* ClaudeClient.swift */; };
+		E8932F5E76815F0D31CDF444 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B00B5FF12BF52C11FCF7A3D /* AppConfig.swift */; };
+		F00EB083C59C37C839516955 /* TarotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419BD46F8CF5CB2CAE45C62B /* TarotView.swift */; };
+		F6A7C990203D4E192A25FE70 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B15D58279574B0B833E79 /* MatchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A58361AE9821764A30B39AA /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		0CEC1241F9E6D7083D1435BB /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		12AA28535C4E67AF0BF71707 /* AstraAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstraAIApp.swift; sourceTree = "<group>"; };
+		12E0937910949E6DFA82DE34 /* HoroscopeFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeFeed.swift; sourceTree = "<group>"; };
+		18BB54F0EC182C31F4348107 /* ProfileForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileForm.swift; sourceTree = "<group>"; };
+		21693BCC2A074951EFF3D727 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		25A7D3D9361F74AE803D414A /* YouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouView.swift; sourceTree = "<group>"; };
+		28E688656D0D3D2613095DB5 /* AskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskView.swift; sourceTree = "<group>"; };
+		2B0551A60614047CBFFB41A3 /* ClaudeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeClient.swift; sourceTree = "<group>"; };
+		35175D5002A2386D99A4122E /* ReadingLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingLoader.swift; sourceTree = "<group>"; };
+		3FC5CB24D865B988739E7D0C /* ChartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartScreen.swift; sourceTree = "<group>"; };
+		3FE6EC1497E25CDE9433B2E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		419BD46F8CF5CB2CAE45C62B /* TarotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotView.swift; sourceTree = "<group>"; };
+		586F248EE2F4B0258864283D /* AstraAI.storekit */ = {isa = PBXFileReference; path = AstraAI.storekit; sourceTree = "<group>"; };
+		661466B50D42BF6CCDDCA018 /* TarotCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotCardView.swift; sourceTree = "<group>"; };
+		6B00B5FF12BF52C11FCF7A3D /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		74E72318B3355FD01EADE954 /* ProStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProStore.swift; sourceTree = "<group>"; };
+		79D4AE99D33FE84DEAB5ED91 /* SignHoroscopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignHoroscopeView.swift; sourceTree = "<group>"; };
+		807D88085D6610C4FC9A1B45 /* AIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIClient.swift; sourceTree = "<group>"; };
+		869742B824306DACFF32CD3C /* DailyNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNotifier.swift; sourceTree = "<group>"; };
+		872B15D58279574B0B833E79 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		91B3DB1E0FEB86BF4BAEFE93 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		91FB2A5F587A0D4C3D758302 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		92E08E7A19470101700F7370 /* ShareCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCard.swift; sourceTree = "<group>"; };
+		9CCA832C40C0F3B80F283A75 /* Astrologers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astrologers.swift; sourceTree = "<group>"; };
+		A94713ADE613103D88072D72 /* PlanetDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailSheet.swift; sourceTree = "<group>"; };
+		B01DD37B28D3041EB7523B30 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B13A1B3BBC3C03D495C01934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B68D71C6A49EAB45421CDBE2 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		BA42C9AC0CE6E523E58BBC03 /* AstraAI.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AstraAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD76D9CD69C27C0C6AC43009 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BF1C893B68CBA29FCA5D0D18 /* PlaceSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearch.swift; sourceTree = "<group>"; };
+		EFC1C50037D260805A4AA7D2 /* ReadingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingText.swift; sourceTree = "<group>"; };
+		EFE3AE1C4524B9D722A84BA0 /* AstrologerPrompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologerPrompts.swift; sourceTree = "<group>"; };
+		FA08CD8BCF10223635CDBB88 /* AstroCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AstroCore; path = Packages/AstroCore; sourceTree = SOURCE_ROOT; };
+		FF58630AAD99B48D115F4743 /* ChartWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartWheel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341EB739444E2A40C4DAAF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EE840B44A2B4526DCF2F44 /* AstroCore in Frameworks */,
+				4D34B5F2E1DD1E0D4032FF5D /* RevenueCat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02874504EE04FD8087C3E25B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				21693BCC2A074951EFF3D727 /* OnboardingView.swift */,
+				18BB54F0EC182C31F4348107 /* ProfileForm.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		03A04D5CEFF53B2AC8AB8F80 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				79D4AE99D33FE84DEAB5ED91 /* SignHoroscopeView.swift */,
+				91FB2A5F587A0D4C3D758302 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		0F0AEED963153B4B23A70333 /* AstraAI */ = {
+			isa = PBXGroup;
+			children = (
+				10F10976D0162666D85968C1 /* App */,
+				DEDA1378803031C91351CA2E /* Models */,
+				690B093344D450ED8B186124 /* Resources */,
+				25F84E570252D82F830A6CDD /* Services */,
+				19C955D376C921209CA1785C /* Theme */,
+				779E92FE326E3C198A730049 /* Views */,
+			);
+			path = AstraAI;
+			sourceTree = "<group>";
+		};
+		10F10976D0162666D85968C1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				12AA28535C4E67AF0BF71707 /* AstraAIApp.swift */,
+				0A58361AE9821764A30B39AA /* SplashView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		19C955D376C921209CA1785C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				BD76D9CD69C27C0C6AC43009 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		25F84E570252D82F830A6CDD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				807D88085D6610C4FC9A1B45 /* AIClient.swift */,
+				6B00B5FF12BF52C11FCF7A3D /* AppConfig.swift */,
+				EFE3AE1C4524B9D722A84BA0 /* AstrologerPrompts.swift */,
+				9CCA832C40C0F3B80F283A75 /* Astrologers.swift */,
+				2B0551A60614047CBFFB41A3 /* ClaudeClient.swift */,
+				869742B824306DACFF32CD3C /* DailyNotifier.swift */,
+				12E0937910949E6DFA82DE34 /* HoroscopeFeed.swift */,
+				BF1C893B68CBA29FCA5D0D18 /* PlaceSearch.swift */,
+				74E72318B3355FD01EADE954 /* ProStore.swift */,
+				35175D5002A2386D99A4122E /* ReadingLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		28755CD4409134848684FAC5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EFC1C50037D260805A4AA7D2 /* ReadingText.swift */,
+				92E08E7A19470101700F7370 /* ShareCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2F0C2C327307D7D37D4EFFCE /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				872B15D58279574B0B833E79 /* MatchView.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		385203739B6E9AFFB8DE53AD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0CEC1241F9E6D7083D1435BB /* Secrets.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6312043C261CB36D87948602 = {
+			isa = PBXGroup;
+			children = (
+				0F0AEED963153B4B23A70333 /* AstraAI */,
+				385203739B6E9AFFB8DE53AD /* Config */,
+				B8C5742B7B2DFDA8BEA4693F /* Packages */,
+				FC494F68272D29FC1EF67D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		690B093344D450ED8B186124 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6EC1497E25CDE9433B2E7 /* Assets.xcassets */,
+				586F248EE2F4B0258864283D /* AstraAI.storekit */,
+				B13A1B3BBC3C03D495C01934 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		779E92FE326E3C198A730049 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECC8AF43B360874FA502A787 /* Ask */,
+				DC2977F72EF239905E964AD2 /* Chart */,
+				28755CD4409134848684FAC5 /* Components */,
+				2F0C2C327307D7D37D4EFFCE /* Match */,
+				02874504EE04FD8087C3E25B /* Onboarding */,
+				D7A5D52553F5D33A1900E11F /* Paywall */,
+				F1815EC4DFDCC8651BC9BC9A /* Profile */,
+				FD4BDAF315DF999D88365337 /* Tarot */,
+				03A04D5CEFF53B2AC8AB8F80 /* Today */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8C5742B7B2DFDA8BEA4693F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FA08CD8BCF10223635CDBB88 /* AstroCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		D7A5D52553F5D33A1900E11F /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				B68D71C6A49EAB45421CDBE2 /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		DC2977F72EF239905E964AD2 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5CB24D865B988739E7D0C /* ChartScreen.swift */,
+				FF58630AAD99B48D115F4743 /* ChartWheel.swift */,
+				A94713ADE613103D88072D72 /* PlanetDetailSheet.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		DEDA1378803031C91351CA2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B01DD37B28D3041EB7523B30 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECC8AF43B360874FA502A787 /* Ask */ = {
+			isa = PBXGroup;
+			children = (
+				28E688656D0D3D2613095DB5 /* AskView.swift */,
+				91B3DB1E0FEB86BF4BAEFE93 /* ChatView.swift */,
+			);
+			path = Ask;
+			sourceTree = "<group>";
+		};
+		F1815EC4DFDCC8651BC9BC9A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				25A7D3D9361F74AE803D414A /* YouView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FC494F68272D29FC1EF67D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA42C9AC0CE6E523E58BBC03 /* AstraAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD4BDAF315DF999D88365337 /* Tarot */ = {
+			isa = PBXGroup;
+			children = (
+				661466B50D42BF6CCDDCA018 /* TarotCardView.swift */,
+				419BD46F8CF5CB2CAE45C62B /* TarotView.swift */,
+			);
+			path = Tarot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4923CA3BADC68F4E9E8AAA /* AstraAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473B26C12AC34DD6E8A1C8DC /* Build configuration list for PBXNativeTarget "AstraAI" */;
+			buildPhases = (
+				2981FFF448A8B9B7A1C2D7D2 /* Sources */,
+				0A35E97D78F043ED87D1337C /* Resources */,
+				341EB739444E2A40C4DAAF93 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstraAI;
+			packageProductDependencies = (
+				1E8370E046C9AA4235E33474 /* AstroCore */,
+				E31EA7E858A8088D7CCD9685 /* RevenueCat */,
+			);
+			productName = AstraAI;
+			productReference = BA42C9AC0CE6E523E58BBC03 /* AstraAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8AA6B133339CCC96A1C08F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3C4923CA3BADC68F4E9E8AAA = {
+						DevelopmentTeam = YUS4TVU33T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2B7436E22F118BA7B52AF656 /* Build configuration list for PBXProject "AstraAI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6312043C261CB36D87948602;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1FA29B0DA2E49BC421772EA5 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+				D00AB43F47E570CF5A6FDE8B /* XCLocalSwiftPackageReference "Packages/AstroCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FC494F68272D29FC1EF67D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4923CA3BADC68F4E9E8AAA /* AstraAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A35E97D78F043ED87D1337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53F61E27DAD70E92CED5B21 /* Assets.xcassets in Resources */,
+				6EE968F51127E696E28B4E09 /* AstraAI.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2981FFF448A8B9B7A1C2D7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E08F0D31E6B5C08637602B /* AIClient.swift in Sources */,
+				E8932F5E76815F0D31CDF444 /* AppConfig.swift in Sources */,
+				DF534887CC77525F5FD858C7 /* AskView.swift in Sources */,
+				78544D82B6521F0260C4F353 /* AstraAIApp.swift in Sources */,
+				9889A87F6DC0A8C96C1DC27A /* AstrologerPrompts.swift in Sources */,
+				092C903FFE7648895BE66D38 /* Astrologers.swift in Sources */,
+				3017D68668C1B0E25B521EED /* ChartScreen.swift in Sources */,
+				D0B1EEDBBCE0780A323DDAE5 /* ChartWheel.swift in Sources */,
+				96C13248CF248085D1CF20C6 /* ChatView.swift in Sources */,
+				E0D067C3E352A7BFBFBC4547 /* ClaudeClient.swift in Sources */,
+				DE4AEDDC0A6B90278F8780F8 /* DailyNotifier.swift in Sources */,
+				C3C35C8774FE0A6F0CDC6E7F /* HoroscopeFeed.swift in Sources */,
+				F6A7C990203D4E192A25FE70 /* MatchView.swift in Sources */,
+				07D082C1285C24B6D9354776 /* Models.swift in Sources */,
+				3F7F37C8432C2A4F0C36E649 /* OnboardingView.swift in Sources */,
+				AEE101855EEEC98026975048 /* PaywallView.swift in Sources */,
+				5C73DF995E0177CAC862A641 /* PlaceSearch.swift in Sources */,
+				4D47C48A048B5759965329A5 /* PlanetDetailSheet.swift in Sources */,
+				2CD2067F8303B2C54F15CD44 /* ProStore.swift in Sources */,
+				2FC97A2E399FB8F816F1A41A /* ProfileForm.swift in Sources */,
+				DF46695634896BAB6CBBE11A /* ReadingLoader.swift in Sources */,
+				4DE9A8DBBBDABDF34F28A558 /* ReadingText.swift in Sources */,
+				71B600E859F37F36FF6E6AA7 /* ShareCard.swift in Sources */,
+				9A2CA137C6C98A2D7C32832D /* SignHoroscopeView.swift in Sources */,
+				49C8E8B33E1216E993760C23 /* SplashView.swift in Sources */,
+				9A151F4EB73122F630784C5F /* TarotCardView.swift in Sources */,
+				F00EB083C59C37C839516955 /* TarotView.swift in Sources */,
+				920D24454678DF82E22054FC /* Theme.swift in Sources */,
+				A8751707DDAB356C71F2D109 /* TodayView.swift in Sources */,
+				21AB3C405822CC6D6CB3869D /* YouView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6529BF3415B72E85643BE9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEC1241F9E6D7083D1435BB /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		6D6754C720B5BCFE5ED84CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUS4TVU33T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstraAI/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.astraai.in;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		771482D7D3BE3CAA78563508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YUS4TVU33T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstraAI/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.astraai.in;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C431BF04C3C9000E6CA60BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEC1241F9E6D7083D1435BB /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B7436E22F118BA7B52AF656 /* Build configuration list for PBXProject "AstraAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6529BF3415B72E85643BE9E3 /* Debug */,
+				C431BF04C3C9000E6CA60BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		473B26C12AC34DD6E8A1C8DC /* Build configuration list for PBXNativeTarget "AstraAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771482D7D3BE3CAA78563508 /* Debug */,
+				6D6754C720B5BCFE5ED84CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D00AB43F47E570CF5A6FDE8B /* XCLocalSwiftPackageReference "Packages/AstroCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/AstroCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FA29B0DA2E49BC421772EA5 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E8370E046C9AA4235E33474 /* AstroCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AstroCore;
+		};
+		E31EA7E858A8088D7CCD9685 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FA29B0DA2E49BC421772EA5 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F8AA6B133339CCC96A1C08F2 /* Project object */;
+}

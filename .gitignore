@@ -1,0 +1,7 @@
+Config/Secrets.xcconfig
+*.xcodeproj/xcuserdata/
+.build/
+DerivedData/
+.DS_Store
+.mesh/
+build/
