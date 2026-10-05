@@ -3,7 +3,7 @@ import Foundation
 /// AstroTalk-style roster: the user picks a specialist to chat with. Every expert
 /// is the same Haiku model with a different focus layered onto the Astra persona.
 enum AstrologerExpert: String, CaseIterable, Identifiable {
-    case astra, vedic, love, career, tarot, numerology
+    case astra, vedic, love, career, tarot, numerology, palm
 
     var id: String { rawValue }
 
@@ -15,6 +15,7 @@ enum AstrologerExpert: String, CaseIterable, Identifiable {
         case .career: "Sol"
         case .tarot: "Oracle Nyx"
         case .numerology: "Pythia"
+        case .palm: "Rhea"
         }
     }
 
@@ -26,6 +27,7 @@ enum AstrologerExpert: String, CaseIterable, Identifiable {
         case .career: "Career · Finance · Timing"
         case .tarot: "Tarot · Intuitive guidance"
         case .numerology: "Numerology · Names · Cycles"
+        case .palm: "Palmistry · Heart, head & life lines"
         }
     }
 
@@ -37,6 +39,7 @@ enum AstrologerExpert: String, CaseIterable, Identifiable {
         case .career: "chart.line.uptrend.xyaxis"
         case .tarot: "rectangle.portrait.on.rectangle.portrait"
         case .numerology: "number"
+        case .palm: "hand.raised"
         }
     }
 
@@ -48,6 +51,7 @@ enum AstrologerExpert: String, CaseIterable, Identifiable {
         case .career: "Let's look at your 10th house, Saturn and your dasha for work and money."
         case .tarot: "Hold a question in mind, then ask. I'll draw cards and read them against your chart."
         case .numerology: "Your numbers are ready — Life Path, Expression and Personal Year. What shall we explore?"
+        case .palm: "Hold up your palm. I'll trace your heart, head, life and fate lines and read what they say."
         }
     }
 
@@ -65,6 +69,8 @@ enum AstrologerExpert: String, CaseIterable, Identifiable {
             return "If the message lists cards already drawn in the app, read exactly those cards. Otherwise, when the user asks a question, draw cards by naming them (1 card for simple questions, 3 for past/present/future). Choose cards at random-feeling variety, state upright or reversed, read each, then relate the spread to one or two chart placements. Be clear that the draw is symbolic."
         case .numerology:
             return "Focus on numerology: Life Path, Expression, Soul Urge, Personality, Birthday and Personal Year numbers from the data, plus name-number analysis when asked (Pythagorean system). Connect numbers to the chart where it adds insight."
+        case .palm:
+            return "Focus on palmistry: read the heart line (emotions, love), head line (mind, decisions), life line (vitality, energy) and fate line (career, purpose) symbolically, then relate them to one or two chart placements. Be clear the reading is symbolic — never diagnose health or predict lifespan from the life line."
         }
     }
 

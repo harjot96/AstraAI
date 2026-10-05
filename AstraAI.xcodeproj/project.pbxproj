@@ -22,6 +22,7 @@
 		5C73DF995E0177CAC862A641 /* PlaceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C893B68CBA29FCA5D0D18 /* PlaceSearch.swift */; };
 		6EE968F51127E696E28B4E09 /* AstraAI.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 586F248EE2F4B0258864283D /* AstraAI.storekit */; };
 		71B600E859F37F36FF6E6AA7 /* ShareCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E08E7A19470101700F7370 /* ShareCard.swift */; };
+		7578730583EEE6C5BB2A8EEA /* PalmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE718D9C128367DFE5E03E /* PalmView.swift */; };
 		78544D82B6521F0260C4F353 /* AstraAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA28535C4E67AF0BF71707 /* AstraAIApp.swift */; };
 		920D24454678DF82E22054FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD76D9CD69C27C0C6AC43009 /* Theme.swift */; };
 		96C13248CF248085D1CF20C6 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3DB1E0FEB86BF4BAEFE93 /* ChatView.swift */; };
@@ -64,6 +65,7 @@
 		79D4AE99D33FE84DEAB5ED91 /* SignHoroscopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignHoroscopeView.swift; sourceTree = "<group>"; };
 		807D88085D6610C4FC9A1B45 /* AIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIClient.swift; sourceTree = "<group>"; };
 		869742B824306DACFF32CD3C /* DailyNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNotifier.swift; sourceTree = "<group>"; };
+		8FFE718D9C128367DFE5E03E /* PalmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalmView.swift; sourceTree = "<group>"; };
 		872B15D58279574B0B833E79 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
 		91B3DB1E0FEB86BF4BAEFE93 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		91FB2A5F587A0D4C3D758302 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				28755CD4409134848684FAC5 /* Components */,
 				2F0C2C327307D7D37D4EFFCE /* Match */,
 				02874504EE04FD8087C3E25B /* Onboarding */,
+				6E98B0B64B51F362F4FA6F85 /* Palm */,
 				D7A5D52553F5D33A1900E11F /* Paywall */,
 				F1815EC4DFDCC8651BC9BC9A /* Profile */,
 				FD4BDAF315DF999D88365337 /* Tarot */,
@@ -278,6 +281,14 @@
 				BA42C9AC0CE6E523E58BBC03 /* AstraAI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6E98B0B64B51F362F4FA6F85 /* Palm */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE718D9C128367DFE5E03E /* PalmView.swift */,
+			);
+			path = Palm;
 			sourceTree = "<group>";
 		};
 		FD4BDAF315DF999D88365337 /* Tarot */ = {
@@ -383,6 +394,7 @@
 				F6A7C990203D4E192A25FE70 /* MatchView.swift in Sources */,
 				07D082C1285C24B6D9354776 /* Models.swift in Sources */,
 				3F7F37C8432C2A4F0C36E649 /* OnboardingView.swift in Sources */,
+				7578730583EEE6C5BB2A8EEA /* PalmView.swift in Sources */,
 				AEE101855EEEC98026975048 /* PaywallView.swift in Sources */,
 				5C73DF995E0177CAC862A641 /* PlaceSearch.swift in Sources */,
 				4D47C48A048B5759965329A5 /* PlanetDetailSheet.swift in Sources */,

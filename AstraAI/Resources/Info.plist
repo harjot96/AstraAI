@@ -31,6 +31,10 @@
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>AstraAI uses the camera to scan a photo of your palm for your palm reading.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>AstraAI needs access to choose a palm photo from your library for your palm reading.</string>
 	<key>RevenueCatAPIKey</key>
 	<string>$(REVENUECAT_API_KEY)</string>
 	<key>UILaunchScreen</key>

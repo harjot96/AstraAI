@@ -78,6 +78,8 @@ struct MainTabView: View {
                 .tabItem { Label("ASK", systemImage: "bubble.left.and.text.bubble.right") }
             TarotView(me: me)
                 .tabItem { Label("TAROT", systemImage: "rectangle.portrait.on.rectangle.portrait") }
+            PalmView(me: me)
+                .tabItem { Label("PALM", systemImage: "hand.raised") }
             MatchView(me: me)
                 .tabItem { Label("MATCH", systemImage: "heart.circle") }
         }
